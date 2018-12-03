@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view> <canvas canvas-id="Canvas1" class="canvas"></canvas></view>
+
+    <view class="page-section">
+
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" bindinput='bindKeyInput' auto-focus placeholder="输入需编码的字符串"/>
+      </view>
+    </view>
+  </view>
+  <button bindtap="canvasDraw">获取二维码</button>
+
+
+</view>
